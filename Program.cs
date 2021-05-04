@@ -2,7 +2,7 @@
 using System;
 using System.Globalization;
 
-class My
+class MySimpleCalulator
 {
     static int GetDecimalDigitsCount(double number)
     {
