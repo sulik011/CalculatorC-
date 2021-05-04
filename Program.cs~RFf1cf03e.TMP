@@ -1,0 +1,34 @@
+//
+// using System;
+// using System.Windows.Forms;
+// using Microsoft.VisualBasic;
+//
+// class MyAplication{
+//     static void Main(){
+//         int number, reminder;
+//         number = Int32.Parse(
+//             Interaction.InputBox(
+//             "Введите целое число: ",
+//             "проверка "
+//             )
+//         );
+//         reminder= number%2;
+//         string txt="Вы ввели ";
+//         txt += (reminder==0 ?"четное":"нечетное")+ "число" ;
+//         MessageBox.Show(txt);
+//     }
+// }
+
+
+
+using System;
+
+class Calc{
+  static void Main(){
+    int number;
+    Console.WriteLine("введите число:");
+    number = Console.ReadLine();
+    string num_str = (number).ToString();
+    Console.WriteLine("число "+num_str+"!");
+  }
+}
